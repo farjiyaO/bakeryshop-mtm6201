@@ -128,14 +128,15 @@ h3 {
     padding: 10px;
     font-size: 14px;
     font-weight: bold;
+    color: white;
 }
 
 .slider a{
-    color: white;
     text-decoration: none;
 }
 .slider button:hover {
     background-color: white;
+    color: #f56FA1;
 }
 
 .slider i {

@@ -121,19 +121,21 @@ h3 {
     box-shadow: 2px 2px #126180;
 }
 
-.slider .btn {
+.slider .btns {
     background-color: #f56FA1;
-    border: 1px solid #f56FA1;
+    border: 1px solid salmon;
     border-radius: 10px;
     padding: 10px;
     font-size: 14px;
     font-weight: bold;
-    color: white;
 }
 
-.slider .btn:hover {
+.slider a{
+    color: white;
+    text-decoration: none;
+}
+.slider button:hover {
     background-color: white;
-    color: #f56FA1
 }
 
 .slider i {
@@ -149,7 +151,7 @@ h3 {
 .about p {
     font-family: 'Open Sans', sans-serif;
     margin: 15px 0;
-    font-size: 1rem;
+    font-size: 1.15rem;
     line-height: 1.5em;
 }
 
@@ -225,7 +227,7 @@ iframe {
 .core-value p {
     font-family: 'Open Sans', sans-serif;
     margin: 15px 0;
-    font-size: 1rem;
+    font-size: 1.15rem;
     line-height: 1.8em;
 }
 
@@ -260,6 +262,7 @@ iframe {
     font-family: 'Open Sans', sans-serif;
     padding: 15px 5px;
     line-height: 1.5em;
+    font-size: 1.15rem;
 }
 
 .card img {

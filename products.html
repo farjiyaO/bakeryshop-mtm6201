@@ -27,24 +27,29 @@
 <body>
     <!--banner with the image and heading -->
     <div class="banner">
-        <div class="content">
-            <!-- holds the logo and the nav-->
-            <div class="navigation">
-                <div class="logo">
-                    <img src="images/logo.png" alt="An image of our company logo">
-                </div>
-                <div class="menu">
-                    <a href="products.html">Product</a>
-                    <a href="team.html">Team</a>
-                    <a href="index.html">Home</a>
-                </div>
+        <header role="banner">
+            <div class="content">
+                <nav role="navigation">
+                    <div class="navigation">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="An image of our company logo">
+                        </div>
+                        <div class="menu">
+                            <a href="products.html" aria-label="Navigation links to the product page">Product</a>
+                            <a href="team.html" aria-label="Navigation links to the team page">Team</a>
+                            <a href="index.html" aria-label="Navigation links to the home page">Home</a>
+                        </div>
+                    </div>
+                </nav>
+                <header>
+                    <div class="heading">
+                        <h1>Cookies N Creams</h1>
+                        <h3> <i>A flavour for every mood</i> </h3>
+                    </div>
+                </header>
             </div>
-            <div class="heading">
-                <h1>Products</h1>
-            </div>
-        </div>
+        </header>
     </div>
-
     <!-- div for the main content -->
     <div class="main-container">
         <!-- each product list holds dessert items from our menu-->
@@ -154,8 +159,7 @@
                 <picture>
                     <source srcset="images/dessert-1-400_x_650.jpg 1x,
                                     images/dessert-1-650_x_900.jpg 2x,
-                                    images/dessert-1-900_x_1150.jpg 3x" 
-                                    media="(min-width: 760px)" />
+                                    images/dessert-1-900_x_1150.jpg 3x" media="(min-width: 760px)" />
                     <img src="images/dessert-1.jpg" alt="An image of square cake pops">
                 </picture>
             </div>
@@ -171,8 +175,7 @@
                 <picture>
                     <source srcset="images/dessert-4-400_x_650.jpg 1x,
                                     images/dessert-4-650_x_900.jpg 2x,
-                                    images/dessert-4-900_x_1150.jpg 3x" 
-                                    media="(min-width: 760px)" />
+                                    images/dessert-4-900_x_1150.jpg 3x" media="(min-width: 760px)" />
                     <img src="images/dessert-4.jpg" alt="an image of maceroon cookies">
                 </picture>
             </div>
@@ -189,14 +192,17 @@
         </div>
     </div>
     <!-- footer for the site -->
-    <div class="footer">
-        <p>&copy; All Rights Preserved.</p>
-        <p>
-            <i class="fa fa-facebook-square"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-whatsapp"></i>
-            <i class="fa fa-youtube-play"></i>
-        </p>
-    </div>
+    <footer role="contentinfo">
+        <div class="footer">
+            <p>&copy; All Rights Preserved.</p>
+            <p>
+                <i class="fa fa-facebook-square"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-youtube-play"></i>
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>

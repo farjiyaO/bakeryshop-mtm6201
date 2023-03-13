@@ -22,23 +22,28 @@
 <body>
     <!--banner with the image -->
     <div class="banner">
-        <div class="content">
-            <!-- holds the logo and navbar -->
-            <div class="navigation">
-                <div class="logo">
-                    <img src="images/logo.png" alt="An image of our company logo">
-                </div>
-                <div class="menu">
-                    <a href="products.html">Product</a>
-                    <a href="team.html">Team</a>
-                    <a href="index.html">Home</a>
-                </div>
+        <header role="banner">
+            <div class="content">
+                <nav role="navigation">
+                    <div class="navigation">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="An image of our company logo">
+                        </div>
+                        <div class="menu">
+                            <a href="products.html" aria-label="Navigation links to the product page">Product</a>
+                            <a href="team.html" aria-label="Navigation links to the team page">Team</a>
+                            <a href="index.html" aria-label="Navigation links to the home page">Home</a>
+                        </div>
+                    </div>
+                </nav>
+                <header>
+                    <div class="heading">
+                        <h1>Cookies N Creams</h1>
+                        <h3> <i>A flavour for every mood</i> </h3>
+                    </div>
+                </header>
             </div>
-            <!-- holds the heading of the page-->
-            <div class="heading">
-                <h1>Our Team</h1>
-            </div>
-        </div>
+        </header>
     </div>
 
     <!-- main-container div hold the core value and employee informations  -->
@@ -117,14 +122,16 @@
         </div>
     </div>
     <!-- footer of the page-->
-    <div class="footer">
-        <p>&copy; All Rights Preserved.</p>
-        <p>
-            <i class="fa fa-facebook-square"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-whatsapp"></i>
-            <i class="fa fa-youtube-play"></i>
-        </p>
-    </div>
+    <footer role="contentinfo">
+        <div class="footer">
+            <p>&copy; All Rights Preserved.</p>
+            <p>
+                <i class="fa fa-facebook-square"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-youtube-play"></i>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

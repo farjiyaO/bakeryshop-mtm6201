@@ -1,0 +1,502 @@
+/* defeat box model */
+* {
+    box-sizing: border-box;
+}
+
+/* font family through out the website */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Banner designs at the top */
+.banner {
+    background-image: url("../images/banner-img.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+.content {
+    background-color: rgba(256, 256, 256, 0.5);
+    height: 500px;
+    padding: 90px 40px;
+}
+
+/* Banner designs at the top */
+
+/* welcome heading for the site */
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #222222;
+}
+
+.heading {
+    padding: 150px 0;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-style: oblique;
+    margin-top: 17px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    word-spacing: .2em;
+    color: #222222;
+}
+
+/* navigation for mobile */
+.navigation {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo img {
+    width: 70px;
+    border: 1px solid salmon;
+    border-radius: 50%;
+}
+
+.menu {
+    width: 70%;
+    overflow: hidden;
+}
+
+.menu a {
+    float: right;
+    text-align: right;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    padding: 25px 4px;
+    text-decoration: none;
+    color: #222;
+    transition: ease-in 0.5s;
+    background-color: rgba(18, 97, 128, 0.3);
+    border-radius: 10%;
+
+}
+
+.menu a:hover {
+    font-size: 1.9rem;
+    background-color: rgba(18, 97, 128, 1);
+    color: antiquewhite;
+}
+
+/* mobile navigation bar*/
+
+
+
+/* main-container div holding the content of the site*/
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.main-container a {
+    color: black;
+}
+
+.main-container a:hover {
+    color: #f56FA1;
+}
+
+/* index.html pages rest of css */
+.slider {
+    /* puts the button in the right corner of the div*/
+    text-align: right;
+}
+
+.slider img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px #126180;
+}
+
+.slider .btn {
+    background-color: #f56FA1;
+    border: 1px solid #f56FA1;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.slider .btn:hover {
+    background-color: white;
+    color: #f56FA1
+}
+
+.slider i {
+    color: #222;
+}
+
+.wrapper {
+    padding: 10px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0;
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+
+.btn a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #126180;
+}
+
+.form {
+    background-color: #f56FA1;
+    padding: 10px 0;
+    position: relative;
+}
+
+.form .btn {
+    padding: 10px;
+    width: 25%;
+    border-radius: 10px;
+    border: 1px solid #126180;
+    background-color: antiquewhite;
+    font-size: 14px;
+    position: relative;
+    top: 90%;
+    left: 38%;
+}
+
+input {
+    width: 95%;
+    margin: 8px 8px;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+textarea {
+    width: 95%;
+    margin: 8px 8px;
+    background-color: antiquewhite;
+}
+
+label {
+    margin: 8px 8px;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+}
+
+
+
+/* teams core-value*/
+.core-value {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.core-value h2 {
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #126180;
+    line-height: 1em;
+}
+
+.core-value p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0;
+    font-size: 1rem;
+    line-height: 1.8em;
+}
+
+
+/* employee card */
+.team-heading h2 {
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #126180;
+    line-height: 1em;
+}
+
+.card {
+    background-color: rgba(245, 111, 161, 0.1);
+    margin: 10px 0;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-family: 'Playfair Display';
+    color: #222;
+    font-size: 1.5rem;
+    padding: 10px 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid #126180;
+}
+
+.card p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 5px;
+    line-height: 1.5em;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* employee card */
+
+/* product page design */
+.products {
+    background-color: rgba(245, 111, 161, 0.1);
+    padding: 10px 5px;
+    border-radius: 15px;
+    border: 1px solid salmon;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.products h3 {
+    font-family: 'Playfair Display';
+    font-size: 1.15rem;
+    padding: 0 8px 10px 8px;
+    margin-bottom: 15px;
+    font-style: normal;
+    text-align: left;
+}
+
+.products ul li {
+    font-size: 1rem;
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+.products {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.circle-icon {
+    text-align: center;
+    padding: 5px;
+}
+
+.product-list i {
+    color: grey;
+    font-size: 5px;
+}
+
+.product-list h2 {
+    font-family: 'Playfair Display';
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 800;
+    color: #126180;
+    transition: ease-in 0.5s;
+    margin: 0;
+}
+
+.product-list h2:hover {
+    color: #f56FA1;
+    text-decoration: underline;
+    font-size: 2rem;
+    padding: 8px;
+}
+
+/* products images */
+.product-photo {
+    font-size: 1.5rem;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    text-align: left;
+    line-height: 1.15em;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: stretch;
+}
+
+.image {
+    width: 32%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #126180;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* products images */
+.msg {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+
+.msg i {
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+}
+
+.msg cite {
+    line-height: 2rem;
+}
+
+
+
+/* footer */
+.footer {
+    background-color: #126180;
+    color: #ffffff;
+    padding: 15px 15px;
+}
+
+.footer p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Desktop design */
+
+@media screen and (min-width:760px) {
+    .contact {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cont-section {
+        width: 50%;
+    }
+
+    .loc-section {
+        width: 50%;
+        margin-left: 8px;
+    }
+
+    iframe {
+        height: 407px;
+    }
+
+    .team-members {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "chef-1 chef-2"
+            "chef-3 chef-4";
+    }
+
+    .chef-1 {
+        grid-area: chef-1;
+    }
+
+    .chef-2 {
+        grid-area: chef-2;
+    }
+
+    .chef-3 {
+        grid-area: chef-3;
+    }
+
+    .chef-4 {
+        grid-area: chef-4;
+    }
+
+    .card {
+        margin: 0 5px 8px 5px;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
+    .product-list h2 {
+        margin: 15px 0 0 0;
+    }
+
+    .circle-icon {
+
+        margin-top: -7px;
+    }
+
+    .products {
+        margin: 0 8px;
+
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .menu {
+        width: 45%;
+        font-size: 1.15rem;
+    }
+
+    .menu a {
+        float: right;
+        text-align: right;
+        font-size: 18px;
+        font-weight: 900;
+        padding: 25px 15px;
+        text-decoration: none;
+        color: #222;
+        transition: ease-in 0.5s;
+        background-color: rgba(18, 97, 128, 0.4);
+        border-radius: 15%;
+
+    }
+
+    .navigation {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

@@ -48,7 +48,7 @@ h3 {
     color: #222222;
 }
 
-/* navigation for mobile */
+/* design navigation for mobile */
 .navigation {
     width: 90%;
     margin: 0 auto;
@@ -83,7 +83,6 @@ h3 {
     transition: ease-in 0.5s;
     background-color: rgba(18, 97, 128, 0.3);
     border-radius: 10%;
-
 }
 
 .menu a:hover {
@@ -91,10 +90,6 @@ h3 {
     background-color: rgba(18, 97, 128, 1);
     color: antiquewhite;
 }
-
-/* mobile navigation bar*/
-
-
 
 /* main-container div holding the content of the site*/
 .main-container {
@@ -272,9 +267,7 @@ iframe {
     border-radius: 10px;
 }
 
-/* employee card */
-
-/* product page design */
+/* styles for products items */
 .products {
     background-color: rgba(245, 111, 161, 0.1);
     padding: 10px 5px;
@@ -283,6 +276,7 @@ iframe {
     width: 95%;
     margin: 0 auto;
     margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .products h3 {
@@ -298,10 +292,6 @@ iframe {
     font-size: 1rem;
     line-height: 1.5em;
     padding-left: 20px;
-}
-
-.products {
-    font-family: 'Open Sans', sans-serif;
 }
 
 .circle-icon {
@@ -331,7 +321,7 @@ iframe {
     padding: 8px;
 }
 
-/* products images */
+/* styles the products images and display in flex  */
 .product-photo {
     font-size: 1.5rem;
     padding: 10px 0;
@@ -362,7 +352,7 @@ iframe {
     border-radius: 10px;
 }
 
-/* products images */
+/* design the credit section of the page  */
 .msg {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
@@ -385,7 +375,7 @@ iframe {
 
 
 
-/* footer */
+/* styles the footer of the site */
 .footer {
     background-color: #126180;
     color: #ffffff;
@@ -400,73 +390,8 @@ iframe {
 /* Desktop design */
 
 @media screen and (min-width:760px) {
-    .contact {
-        display: flex;
-        flex-direction: row;
-    }
 
-    .cont-section {
-        width: 50%;
-    }
-
-    .loc-section {
-        width: 50%;
-        margin-left: 8px;
-    }
-
-    iframe {
-        height: 407px;
-    }
-
-    .team-members {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas:
-            "chef-1 chef-2"
-            "chef-3 chef-4";
-    }
-
-    .chef-1 {
-        grid-area: chef-1;
-    }
-
-    .chef-2 {
-        grid-area: chef-2;
-    }
-
-    .chef-3 {
-        grid-area: chef-3;
-    }
-
-    .chef-4 {
-        grid-area: chef-4;
-    }
-
-    .card {
-        margin: 0 5px 8px 5px;
-    }
-
-    .items {
-        display: flex;
-        flex-direction: row;
-        margin-top: 15px;
-        margin-bottom: 40px;
-    }
-
-    .product-list h2 {
-        margin: 15px 0 0 0;
-    }
-
-    .circle-icon {
-
-        margin-top: -7px;
-    }
-
-    .products {
-        margin: 0 8px;
-
-    }
-
+    /* design the navigation bar for desktop*/
     .logo {
         width: 50%;
     }
@@ -487,16 +412,75 @@ iframe {
         transition: ease-in 0.5s;
         background-color: rgba(18, 97, 128, 0.4);
         border-radius: 15%;
-
     }
 
     .navigation {
         width: 90%;
         margin: 0 auto;
     }
-
+    /* set the layout of the main-container for desktop */
     .main-container {
         width: 90%;
         margin: 0 auto;
+    }
+
+    /* makes the contact and location side by side*/
+    .contact {
+        display: flex;
+        flex-direction: row;
+    }
+    .cont-section {
+        width: 50%;
+    }
+    .loc-section {
+        width: 50%;
+        margin-left: 8px;
+    }
+    iframe {
+        height: 407px;
+    }
+
+    /* display the team members in grid and styles them*/
+    .team-members {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "chef-1 chef-2"
+            "chef-3 chef-4";
+    }
+    .chef-1 {
+        grid-area: chef-1;
+    }
+    .chef-2 {
+        grid-area: chef-2;
+    }
+    .chef-3 {
+        grid-area: chef-3;
+    }
+    .chef-4 {
+        grid-area: chef-4;
+    }
+    .card {
+        margin: 0 5px 8px 5px;
+    }
+
+    /* display the products list in flex and styles them*/
+    .items {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
+    .product-list h2 {
+        margin: 15px 0 0 0;
+    }
+
+    .circle-icon {
+        margin-top: -7px;
+    }
+
+    .products {
+        margin: 0 8px;
     }
 }

@@ -64,6 +64,11 @@ h3 {
     width: 70px;
     border: 1px solid salmon;
     border-radius: 50%;
+    transform: scale(1);
+    transition: ease-in 0.6s;
+}
+.logo img:hover{
+    transform: scale(2);
 }
 
 .menu {
@@ -391,8 +396,16 @@ iframe {
     margin-bottom: 10px;
 }
 .footer a{
+    color: antiquewhite;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
+    transition:ease-in .4s;
+    text-decoration: none;
+}
+.footer a:hover{
+    font-size: 24px;
+    color: aliceblue;
+    text-decoration: underline;
 }
 
 /* Desktop design */

@@ -167,7 +167,7 @@ h1 {
 .slider a{
     text-decoration: none;
 }
-.slider button:hover {
+.slider a:hover {
     background-color: white;
     color: #f56FA1;
 }

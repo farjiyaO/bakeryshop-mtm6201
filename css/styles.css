@@ -301,6 +301,7 @@ iframe {
 }
 .card:hover{
     animation: 5s scale 1;
+    border: 10px solid black;
 }
 
 .card h3 {

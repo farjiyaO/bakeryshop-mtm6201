@@ -61,9 +61,6 @@ h1 {
 .logo {
     width: 30%;
 }
-img{
-    height: 100%;
-}
 .logo img {
     width: 70px;
     border: 1px solid salmon;
@@ -250,67 +247,67 @@ iframe {
 .core-value {
     margin-top: 40px;
     margin-bottom: 60px;
-}
-
-.core-value h2 {
+   }
+   
+   .core-value h2 {
     font-family: 'Playfair Display';
     font-weight: 800;
     font-size: 1.5rem;
     color: #126180;
     line-height: 1em;
-}
-
-.core-value p {
+   }
+   
+   .core-value p {
     font-family: 'Open Sans', sans-serif;
     margin: 15px 0;
     font-size: 1.15rem;
     line-height: 1.8em;
-}
-
-
-/* employee card */
-.team-heading h2 {
+   }
+   
+   
+   /* employee card */
+   .team-heading h2 {
     font-family: 'Playfair Display';
     font-weight: 800;
     font-size: 1.5rem;
     color: #126180;
     line-height: 1em;
-}
-
-.card {
+   }
+   
+   .card {
     background-color: rgba(245, 111, 161, 0.1);
     margin: 10px 0;
     padding: 10px 5px;
     border-radius: 10px;
-}
-
-@keyframes scale {
-	0%{
-        transform: scale(.2);
-        background-color: rgb(245, 111, 161,0.1);
-        transition: linear .3s;
+   }
+   
+   /*@keyframes scale {
+    0%{
+    transform: scale(.2);
+    background-color: rgb(245, 111, 161,0.1);
+    transition: linear .3s;
     }
     40%{
-        transform: scale(.4);
-        background-color: rgba(245, 111, 161, 0.4);
-        transition: linear .3s;
+    transform: scale(.4);
+    background-color: rgba(245, 111, 161, 0.4);
+    transition: linear .3s;
     }
     80%{
-        transform: scale(.6);
-        background-color: rgba(245, 111, 161, 0.8);
-        transition: linear .3s;
+    transform: scale(.6);
+    background-color: rgba(245, 111, 161, 0.8);
+    transition: linear .3s;
     }
     100%{
-        transform: scale(.8);
-        background-color: rgba(245, 111, 161, 1);
-        transition: linear .3s;
+    transform: scale(.8);
+    background-color: rgba(245, 111, 161, 1);
+    transition: linear .3s;
     }
-}
-.card:hover{
+   }
+   .card:hover{
     animation: 2s scale 1;
-}
-
-.card h3 {
+   }*/
+   
+   .card h3 {
     font-family: 'Playfair Display';
     color: #222;
     font-size: 1.5rem;
@@ -318,19 +315,19 @@ iframe {
     margin-bottom: 15px;
     text-align: center;
     border-bottom: 2px solid #126180;
-}
-
-.card p {
+   }
+   
+   .card p {
     font-family: 'Open Sans', sans-serif;
     padding: 15px 5px;
     line-height: 1.5em;
     font-size: 1.15rem;
-}
-
-.card img {
+   }
+   
+   .card img {
     width: 100%;
     border-radius: 10px;
-}
+   }
 
 /* styles for products items */
 .products {
@@ -451,6 +448,7 @@ iframe {
     text-align: center;
     margin-bottom: 10px;
 }
+
 .footer a{
     color: antiquewhite;
     text-align: center;
@@ -462,6 +460,10 @@ iframe {
     font-size: 24px;
     color: aliceblue;
     text-decoration: underline;
+}
+.footer i{
+    font-size: 20px;
+    margin: 0 5px;
 }
 
 /* Desktop design */
@@ -518,6 +520,7 @@ iframe {
     }
 
     /* display the team members in grid and styles them*/
+    
     .team-members {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

@@ -24,6 +24,8 @@ body {
 /* Banner designs at the top */
 
 /* welcome heading for the site */
+
+
 h1 {
     font-family: 'Playfair Display';
     font-size: 3rem;
@@ -114,6 +116,32 @@ h3 {
 }
 
 /* index.html pages rest of css */
+#gallery {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#gallery figure {
+	width:300%;
+	position: relative;
+	animation: 9s slider 2;
+}
+
+
+#gallery figure img {
+	width: 33.333333333%;
+	height : 100%;
+	float: left;
+}
+
 .slider {
     /* puts the button in the right corner of the div*/
     text-align: right;
@@ -252,6 +280,27 @@ iframe {
     margin: 10px 0;
     padding: 10px 5px;
     border-radius: 10px;
+}
+
+@keyframes scale {
+	0%{
+        transform: scale(.2);
+        background-color: #f56FA1;
+        transition: linear .2s;
+    }
+    50%{
+        transform: scale(.5);
+        background-color: red;
+        transition: linear .2s;
+    }
+    100%{
+        transform: scale(1);
+        background-color: red;
+        transition: linear .2s;
+    }
+}
+.card:hover{
+    animation: 5s scale 1;
 }
 
 .card h3 {

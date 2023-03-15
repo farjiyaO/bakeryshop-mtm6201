@@ -285,23 +285,27 @@ iframe {
 @keyframes scale {
 	0%{
         transform: scale(.2);
-        background-color: #f56FA1;
-        transition: linear .2s;
+        background-color: rgb(245, 111, 161,0.1);
+        transition: linear .3s;
     }
-    50%{
-        transform: scale(.5);
-        background-color: red;
-        transition: linear .2s;
+    40%{
+        transform: scale(.4);
+        background-color: rgba(245, 111, 161, 0.4);
+        transition: linear .3s;
+    }
+    80%{
+        transform: scale(.6);
+        background-color: rgba(245, 111, 161, 0.8);
+        transition: linear .3s;
     }
     100%{
-        transform: scale(1);
-        background-color: red;
-        transition: linear .2s;
+        transform: scale(.8);
+        background-color: rgba(245, 111, 161, 1);
+        transition: linear .3s;
     }
 }
 .card:hover{
-    animation: 5s scale 1;
-    border: 10px solid black;
+    animation: 2s scale 1;
 }
 
 .card h3 {
